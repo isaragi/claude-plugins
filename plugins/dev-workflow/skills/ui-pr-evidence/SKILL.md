@@ -1,0 +1,28 @@
+---
+name: ui-pr-evidence
+description: Attach before/after screenshots (light and dark) and, for motion or interaction, a video to every pull request that changes what a screen looks like, after checking each image yourself. Use when opening or updating a PR with UI changes.
+---
+
+# 画面を変える PR には証拠を残す
+
+## 撮るもの
+- 変わった画面と、その前後の画面。操作しないと出ない画面（結果、アラート、時間切れ、設定の奥）も含める。
+- ライトとダークの両方。小さい画面と大きい画面（例：iPhone の小さい機種と大きい機種、iPad）。文字サイズ最大の例も1枚。
+- 動き・アニメーション・操作の流れが変わるときは動画（シミュレーターの録画など）。
+
+## 変更前と変更後
+- 変更前は main から撮る。git worktree に main を出し、撮影用のテストや識別子だけを足して（見た目は変えない）、同じ手順で撮る。
+- 比較できるように、同じ画面・同じ条件（言語・向き・設定）で並べる。前のテストで変えた設定が残っていないか気をつける（UI テストの起動時に設定を消すなど）。
+
+## 自分で見直す
+- 1枚ずつ目で見る：文字の切れ・はみ出し・重なり、隠れたボタン、読めない色の組み合わせ、ダークモードで消える線、意図しない並べ方。
+- 自動の監査（アクセシビリティ監査など）だけでは足りない。
+- 問題があれば直して撮り直してから PR に載せる。
+
+## 載せ方
+- 画像はリポジトリの画像用ブランチ（例：`pr-assets`）の `<ブランチ名>/` に置き、`https://github.com/<owner>/<repo>/blob/pr-assets/<path>?raw=true` で PR 本文から参照する。
+- 変更前／変更後を並べ、何が変わったかを短く添える。
+- 動画は PR のコメントにアップロードするか、画像用ブランチに置いてリンクする。
+
+## マージの前に
+- パネル（`persona-panel`）に見せたあとで見た目が変わったら、最終の画面でもう一度見せる。

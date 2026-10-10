@@ -1,0 +1,14 @@
+{
+  "name": "isaragi",
+  "owner": {
+    "name": "isaragi"
+  },
+  "description": "isaragi の共通の開発ルールとスキル（Claude Code 用）",
+  "plugins": [
+    {
+      "name": "dev-workflow",
+      "source": "./plugins/dev-workflow",
+      "description": "共通の開発ルール（日本語で答える、頼まれたことを issue で追う、ペルソナのパネルで決める、背景を伝えない PR レビュー、UI の PR にスクショと動画）"
+    }
+  ]
+}

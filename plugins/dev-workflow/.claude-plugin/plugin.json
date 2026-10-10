@@ -1,0 +1,8 @@
+{
+  "name": "dev-workflow",
+  "description": "共通の開発ルールとスキル：日本語で答える、頼まれたことを GitHub issue で追う、ペルソナのパネルで決める、背景を伝えない PR レビュー、UI の PR にスクショと動画",
+  "author": {
+    "name": "isaragi"
+  },
+  "version": "0.1.0"
+}
