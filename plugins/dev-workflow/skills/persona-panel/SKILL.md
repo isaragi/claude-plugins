@@ -1,6 +1,6 @@
 ---
 name: persona-panel
-description: Decide a design, UX, wording or product question by polling a simulated panel of 10+ diverse personas with open-ended questions, instead of asking the user to choose. Use when a choice is subjective (layout, wording, flow, colour, naming, voice, difficulty) and nothing can be measured.
+description: デザイン・UX・文言・名前・声・難しさなど、測れない判断を、ユーザーに選ばせる前に、10人以上の多様なペルソナのパネル（シミュレーション）に開かれた質問で聞いて決める。
 ---
 
 # ペルソナのパネルで決める

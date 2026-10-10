@@ -1,6 +1,6 @@
 ---
 name: track-user-requests
-description: Turn every user request that is not finished on the spot into a GitHub issue labelled user-request, keep the list in view on every prompt, and report on all of them when asked for status. Use when the user asks for something that will take longer than the current reply, or asks "状況は？".
+description: その返事で終わらない依頼を受けたとき、すぐ user-request ラベルの GitHub issue にする。「状況は？」と聞かれたら未完了の依頼をすべて報告する。
 ---
 
 # 頼まれたことを issue で追う

@@ -1,6 +1,6 @@
 ---
 name: ui-pr-evidence
-description: Attach before/after screenshots (light and dark) and, for motion or interaction, a video to every pull request that changes what a screen looks like, after checking each image yourself. Use when opening or updating a PR with UI changes.
+description: 画面の見た目を変える PR に、変更前と変更後のスクリーンショット（ライト・ダーク）と、動きの変更には動画を、自分で見直してから載せる。
 ---
 
 # 画面を変える PR には証拠を残す

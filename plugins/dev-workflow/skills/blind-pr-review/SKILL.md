@@ -1,6 +1,6 @@
 ---
 name: blind-pr-review
-description: Have a separate agent review a pull request without any background from the author's session, then merge it when the review passes and CI is green. Use before merging a PR that needs no decision from the user.
+description: ユーザーの判断が要らない PR を、作った側の背景を一切伝えない別のエージェントにレビューしてもらい、通って CI も通ればマージする。
 ---
 
 # 背景を伝えない PR レビュー
