@@ -3,14 +3,27 @@
     "SessionStart": [
       {
         "hooks": [
-          { "type": "command", "command": "cat \"${CLAUDE_PLUGIN_ROOT}/rules.md\"", "timeout": 5 }
+          {
+            "type": "command",
+            "command": "cat \"${CLAUDE_PLUGIN_ROOT}/rules.md\"",
+            "timeout": 5
+          },
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/scripts/open-requests.sh\"",
+            "timeout": 10
+          }
         ]
       }
     ],
     "UserPromptSubmit": [
       {
         "hooks": [
-          { "type": "command", "command": "\"${CLAUDE_PLUGIN_ROOT}/scripts/open-requests.sh\"", "timeout": 10 }
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/scripts/open-requests.sh\"",
+            "timeout": 10
+          }
         ]
       }
     ]
