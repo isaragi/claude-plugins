@@ -8,7 +8,7 @@
     {
       "name": "dev-workflow",
       "source": "./plugins/dev-workflow",
-      "description": "共通の開発ルール（日本語で答える、頼まれたことを issue で追う、ペルソナのパネルで決める、背景を伝えない PR レビュー、UI の PR にスクショと動画）"
+      "description": "共通の開発ルール（日本語で答える、頼まれたことを issue で追う、ペルソナのパネルで決める、PR のレビューとマージ、UI の PR にスクショと動画）"
     }
   ]
 }
