@@ -13,6 +13,7 @@ Claude Code 用のプラグインのマーケットプレイスです。複数�
 | スキル | `blind-pr-review` | Claude API のレビュー（`.github/claude-api-review/`）が無いリポジトリでの予備。背景を伝えない別のエージェントに PR をレビューしてもらう |
 | スキル | `ui-pr-evidence` | 画面を変える PR に、変更前後のスクリーンショット（ライト・ダーク）と動画を `gh … --attach` で載せる。見た目の不具合の issue にも画像を貼る |
 | スキル | `track-user-requests` | 頼まれたことを `user-request` の issue にし、状況の報告ですべてに触れる。進み具合は本文のチェックリストに書く、見つけた不具合は範囲外でも issue にする、頼まれていない issue に着手してよいかの決まり、別のセッションに渡せる issue（`standalone`）の整え方 |
+| スキル | `choose-model` | サブエージェントに任せるときのモデル（Haiku・Sonnet・Opus・Fable）と effort、任せる指示の書き方。Anthropic の公式の指針にもとづく |
 
 ## 使い方
 
